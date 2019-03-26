@@ -1,4 +1,4 @@
-package factory_method.transport;
+package generanting.factory_method.transport;
 
 public class Truck implements Transport {
     @Override

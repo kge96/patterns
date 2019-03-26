@@ -1,6 +1,6 @@
-package factory_method.logistics;
+package generanting.factory_method.logistics;
 
-import factory_method.transport.Transport;
+import generanting.factory_method.transport.Transport;
 
 public abstract class Logistic {
 
