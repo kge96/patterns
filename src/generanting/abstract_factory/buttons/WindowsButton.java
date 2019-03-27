@@ -1,0 +1,14 @@
+package generanting.abstract_factory.buttons;
+
+/**
+ * Все семейства продуктов имеют одни и те же вариации (MacOS/Windows).
+ *
+ * Это вариант кнопки под Windows.
+ */
+
+public class WindowsButton implements Button{
+    @Override
+    public void paint() {
+        System.out.println("Creating button for Windows");
+    }
+}
